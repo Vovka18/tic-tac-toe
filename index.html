@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--
+    <style>
+        .one_c1 p {
+            background-color: blue;
+        }
+    </style>
+
+    <div class="one">
+        <div class="one_c1">
+            <p>hello</p>
+        </div>
+        <div class="one_c2"></div>
+    </div>
+    <div class="two">
+        <div class="two_c1"></div>
+        <div class="two_c2"></div>
+    </div>
+    <div class="tree" id="tree">
+        <div class="three_c1"></div>
+        <div class="three_c2"></div>
+    </div>
+    
+
+    
+    <div class=""></div>
+
+    <script>
+        const divs = document.getElementsByTagName('div')
+        console.log(divs)
+    </script>
+
+
+    <div class=""></div>
+
+    <script>
+        console.log(divs)
+    </script>
+    
+
+    <p>qwe</p>
+
+    <ul>
+        <li>hello</li>
+        <li>how</li>
+        <li>are</li>
+        <li>you</li>
+        <li>man</li>
+    </ul>
+    -->
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            text-align: center;
+            margin: 20px 0px 20px 0px;
+            font-family: Arial;
+        }
+        .box{
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            /* margin-top: 20px; */
+            display: grid;
+            grid-template-columns: 33% 33% 34%;
+            grid-template-rows: 33% 33% 34%;
+            
+        }
+        .box > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 100px;
+            user-select: none;
+            font-family: Candara;
+            border: 2px solid black;
+        }
+    </style>
+    <h1>Ход Х</h1>
+    <div class="box">
+        <div class="pole"></div>
+        <div class="pole"></div>
+        <div class="pole"></div>
+        <div class="pole"></div>
+        <div class="pole"></div>
+        <div class="pole"></div>
+        <div class="pole"></div>
+        <div class="pole"></div>
+        <div class="pole"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
